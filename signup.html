@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    <form action="login.html">
+        <fieldset>
+            <legend><h1>Signup here !</h1></legend>
+            <label>name:</label>
+            <input type="name" placeholder="enter your name"><br><br>
+            <lable>Email:</lable>
+            <input type="email" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2-4}" placeholder="Enter your email"><br><br>
+            <label for="mobile">mobile:</label>
+            <input type="number" placeholder="Enter mobile number">
+            <br><br>
+            <label for="create Password">create password:</label>
+            <input type="password" placeholder="Enter your password" pattern="(?=.*[A-Z])(?=.*[a-z])+(?=.*[@#$%^&])(?=.*[0-9]){8}">
+            <br><br>
+            <label for="confirm password">confirm password:</label>
+            <input type="password" placeholder="enter your password" pattern="(?=.*[A-Z])(?=.*[a-z])+(?=.*[@#$%^&])(?=.*[0-9]){8}"><br><br>
+            <button>sign up</button>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
